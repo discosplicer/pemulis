@@ -1,0 +1,64 @@
+1 Villanova
+Playin
+8 Northwestern
+9 Arkansas
+5 Iowa St
+12 Middle Tennessee
+4 Florida St
+13 East Tennessee St
+6 Michigan
+Playin
+3 Notre Dame
+14 Iona
+7 Maryland
+10 Vanderbilt
+2 Baylor
+15 North Dakota
+1 Gonzaga
+16 South Dakota St
+8 South Carolina
+9 Oklahoma St
+5 Virginia
+12 UNC Wilmington
+4 Purdue
+13 Winthrop
+6 SMU
+Playin
+3 Louisville
+14 Florida Gulf Coast
+7 Creighton
+10 Michigan St
+2 Arizona
+15 UC Davis
+1 North Carolina
+Playin
+8 Wichita St
+9 Dayton
+5 Cincinnati
+12 Vermont
+4 West Virginia
+13 Princeton
+6 Wisconsin
+11 Xavier
+3 UCLA
+14 Northern Kentucky
+7 Miami
+10 Providence
+2 Kentucky
+15 Kent St
+1 Kansas
+16 Texas Southern
+8 Virginia Tech
+9 VCU
+5 Florida
+12 Nevada
+4 Butler
+13 Bucknell
+6 St Marys
+11 Marquette
+3 Oregon
+14 New Mexico St
+7 Minnesota
+10 Seton Hall
+2 Duke
+15 Jacksonville St

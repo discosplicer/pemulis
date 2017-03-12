@@ -1,0 +1,35 @@
+import csv
+from scipy.stats import norm
+
+def assignElo(team, rating):
+	elo = []
+	for i in range(len(rating)):
+		if rating[i] > 0 and rating[i] < 100:
+			sd = norm.ppf(rating[i]/100.0)
+			elo.append(1500.0 + (2000/7.0)*sd)
+		elif rating[i] == 100:
+			sd = norm.ppf(0.997)
+			elo.append(1500.0 + (2000/7.0)*sd)
+		else:
+			print "There was an error, check Elo ratings!"
+	return elo
+
+def eloSim(rating1, rating2):
+	print rating1
+	print rating2
+	expectedScore = 1.0/(1 + 10**((rating2-rating1)/400))
+	print expectedScore	
+	
+with open('teams.csv', 'rb') as csvfile:
+	readit = csv.reader(csvfile, delimiter=',')
+	team = []
+	rating = []
+	for row in readit:
+		team.append(row[0])
+		rating.append(float(row[1]))
+csvfile.close()
+
+elo = assignElo(team, rating)
+for i in range(len(team)):
+	print("Team " + team[i] + " has a rating of " + str(int(elo[i])))
+eloSim(elo[1],elo[2])
